@@ -2,7 +2,9 @@
 function calculate() {
   var result;
   var temp = original.value;
-  var regexp = /([-+]?\d+(?:\.\d*)?)\s*([fFcC])/;
+  //var regexp = /([-+]?\d+(?:\.\d*)?)\s*([fFcC])/;
+  var regexp = /([-+]?\d+(?:\.\d*)?)((\s*[e][-+]?\d+)?)\s*([fFcC])/;
+              //-numero                        
   
   var m = temp.match(regexp);
 
