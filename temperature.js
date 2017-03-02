@@ -10,6 +10,8 @@ function calculate() {
 
   if (m) {
     var num = m[1];
+    console.log(m[1]);
+    console.log(m[2]);
     var type = m[2];
     num = parseFloat(num);
     if (type == 'c' || type == 'C') {
